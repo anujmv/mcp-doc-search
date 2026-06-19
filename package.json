@@ -1,0 +1,24 @@
+{
+  "name": "mcp-doc-search",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol (MCP) server for grounded Q&A over a local folder of documents.",
+  "type": "module",
+  "bin": {
+    "mcp-doc-search": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["mcp", "model-context-protocol", "rag", "llm", "document-search", "ai"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
